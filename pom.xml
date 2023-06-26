@@ -131,14 +131,6 @@
                                 <mainClass>com.c0nrad.darkchess.App</mainClass>
                             </transformer>
                         </transformers>
-		<filters>
-          		<filter>
-            <artifact>javax.inject:javax.inject</artifact>
-            <excludes>
-              <exclude>META-INF/versions/**</exclude>
-            </excludes>
-          		</filter>
-        	</filters>
                     </configuration>
                 </execution>
             </executions>
